@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         gachabutton.layer.cornerRadius = gachabutton.bounds.height/2
-        
+        print("nanaka")
     }
     @IBAction func startgacha(){
         number = Int.random(in: 0...100)
