@@ -23,6 +23,7 @@
 		0B05C73E258F3FF200143950 /* sabaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B05C73D258F3FF100143950 /* sabaku.jpg */; };
 		0B05C743258F3FFE00143950 /* umi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B05C742258F3FFE00143950 /* umi.jpg */; };
 		0B05C748258F400A00143950 /* sora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B05C747258F400A00143950 /* sora.jpg */; };
+		0B7BDD7525B5ACD3009B63CF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BDD7425B5ACD3009B63CF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		0B05C73D258F3FF100143950 /* sabaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabaku.jpg; sourceTree = "<group>"; };
 		0B05C742258F3FFE00143950 /* umi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umi.jpg; sourceTree = "<group>"; };
 		0B05C747258F400A00143950 /* sora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sora.jpg; sourceTree = "<group>"; };
+		0B7BDD7425B5ACD3009B63CF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				0B05C6F6258F2DA200143950 /* AppDelegate.swift */,
 				0B05C6F8258F2DA200143950 /* SceneDelegate.swift */,
+				0B7BDD7425B5ACD3009B63CF /* SecondViewController.swift */,
 				0B05C6FA258F2DA200143950 /* ViewController.swift */,
 				0B05C6FC258F2DA200143950 /* Main.storyboard */,
 				0B05C6FF258F2DA500143950 /* Assets.xcassets */,
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7BDD7525B5ACD3009B63CF /* SecondViewController.swift in Sources */,
 				0B05C6FB258F2DA200143950 /* ViewController.swift in Sources */,
 				0B05C6F7258F2DA200143950 /* AppDelegate.swift in Sources */,
 				0B05C6F9258F2DA200143950 /* SceneDelegate.swift in Sources */,
