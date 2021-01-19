@@ -14,12 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet var haikeiImageview : UIImageView!
     var number : Int!
     
+    
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
         gachabutton.layer.cornerRadius = gachabutton.bounds.height/2
         print("nanakadayo")
+        print("addNewSentence")
     }
     @IBAction func startgacha(){
         number = Int.random(in: 0...100)
